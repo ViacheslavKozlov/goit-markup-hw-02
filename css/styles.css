@@ -18,7 +18,8 @@ body {
 }
 
 /*header*/
-.link {
+.link, .link-adress {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -50,10 +51,22 @@ footer {
 }
 .footer-adress {
   font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 .down {
   color: var(--main-text-color);
+}
+.footer-adress .link-adress {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /*main page*/
@@ -69,6 +82,16 @@ footer {
   text-transform: uppercase;
 }
 .claim-button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   background: var(--button-active-color);
   color: var(--main-text-color);
   cursor: pointer;
@@ -78,6 +101,7 @@ footer {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .features-text {
   color: var(--common-text);
@@ -114,6 +138,13 @@ footer {
 
 /* portfolio page*/
 .buttons {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
   background: var(--button-background);
   color: var(--title-text-color);
   cursor: pointer;
